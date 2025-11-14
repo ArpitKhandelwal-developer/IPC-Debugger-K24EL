@@ -162,6 +162,8 @@ class IPCDebuggerGUI(QWidget):
 
 
         alerts = run_all_detectors(self.sim.traces, self.sim.processes)
+        self.setWindowTitle(f"IPC Debugger — Running Processes: {len(self.active_items)}")
+
         self.alerts_list.clear()
         for a in alerts:
             self.alerts_list.addItem(json.dumps(a))
