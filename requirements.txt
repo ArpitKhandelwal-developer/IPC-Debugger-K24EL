@@ -1,0 +1,4 @@
+PyQt5>=5.15.9
+matplotlib>=3.7
+numpy>=1.26
+psutil>=5.9
