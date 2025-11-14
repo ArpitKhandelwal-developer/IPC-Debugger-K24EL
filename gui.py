@@ -44,6 +44,7 @@ class IPCDebuggerGUI(QWidget):
 
         # Left panel - controls
         left = QVBoxLayout()
+        left.setSpacing(10)
         cfg = QFormLayout()
 
         self.ipc_type = QComboBox()
