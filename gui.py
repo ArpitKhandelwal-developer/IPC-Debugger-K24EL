@@ -1,5 +1,6 @@
 # gui.py
-#This file contains the full gui code of the project.
+# TODO: Improve GUI responsiveness for high throughput
+
 import sys
 import time
 import json
