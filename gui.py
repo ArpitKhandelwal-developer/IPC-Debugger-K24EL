@@ -1,4 +1,5 @@
 # gui.py
+#This file contains the full gui code of the project.
 import sys
 import time
 import json
